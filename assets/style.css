@@ -125,8 +125,7 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
-<<<<<<< HEAD
-	width: 100%;
+  width: 100%;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
@@ -155,8 +154,7 @@ header {
     transition: background 0.2s;
 }
 
-=======
-}
+
 #banner .arrow_left {
 	left: 10px;
 }
