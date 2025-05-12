@@ -142,25 +142,22 @@ header {
     justify-content: center;
     cursor: pointer;
     transition: background 0.2s;
+		left: 10px;
 }
 
 #banner .arrow_right {
 	  pointer-events:auto;
 	  right: 10px;
-	   display: flex;
+	  display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: background 0.2s;
+		right: 10px;
 }
 
 
-#banner .arrow_left {
-	left: 10px;
-}
-#banner .arrow_right {
-	right: 10px;
-}
+
 
 /* Gestion des points du carrousel */
 .dots {
