@@ -17,6 +17,7 @@ const slides = [
 	}
 ]
 
+
 let currentSlide = 0;
 
 // Sélectionner les éléments du DOM
@@ -77,3 +78,4 @@ leftArrow.addEventListener("click", prevSlide);
 rightArrow.addEventListener("click", nextSlide);
 
 init();
+

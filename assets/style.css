@@ -125,6 +125,7 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+<<<<<<< HEAD
 	width: 100%;
   top: 50%;
   left: 0;
@@ -152,6 +153,15 @@ header {
     justify-content: center;
     cursor: pointer;
     transition: background 0.2s;
+}
+
+=======
+}
+#banner .arrow_left {
+	left: 10px;
+}
+#banner .arrow_right {
+	right: 10px;
 }
 
 /* Gestion des points du carrousel */
