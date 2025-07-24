@@ -45,7 +45,7 @@ flecheRight.addEventListener("click", () => {
 });
 
 //créer des bullet points au slider
-const bulletPoints = document.querySelector(".dots");
+let bulletPoints = document.querySelector(".dots");
 console.log("bulletPoints =", bulletPoints);
 
 for (let i = 0; i < slides.length; i++) {
