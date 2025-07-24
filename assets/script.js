@@ -20,11 +20,11 @@ const slides = [
 
 let index = 0;
 
-let image = document.querySelector(".banner-img");
-let text = document.querySelector("#banner p");
+const image = document.querySelector(".banner-img");
+const text = document.querySelector("#banner p");
 
 //ajouter des event listeners sur les flèches
-let flecheLeft = document.querySelector(".arrow_left");
+const flecheLeft = document.querySelector(".arrow_left");
 flecheLeft.addEventListener("click", () => {
   if (index === 0) {
     index = slides.length - 1; //aller à la dernière image
@@ -34,7 +34,7 @@ flecheLeft.addEventListener("click", () => {
   modifierBtnclic(); // mettre à jour image, texte et bullet
 });
 
-let flecheRight = document.querySelector(".arrow_right");
+const flecheRight = document.querySelector(".arrow_right");
 flecheRight.addEventListener("click", () => {
   if (index === slides.length - 1) {
     index = 0; // revenir au début
@@ -45,7 +45,7 @@ flecheRight.addEventListener("click", () => {
 });
 
 //créer des bullet points au slider
-let bulletPoints = document.querySelector(".dots");
+const bulletPoints = document.querySelector(".dots");
 console.log("bulletPoints =", bulletPoints);
 
 for (let i = 0; i < slides.length; i++) {
